@@ -4,15 +4,15 @@
 import RPi.GPIO as GPIO # Import the GPIO Library
 import time # import the time libray
 import sys
-import motor
+from motor import Motor
 
 #set variables for the GPIO modes
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
 
 #set variables for the GPIO monotor pins
-motorA = motor.Motor(9,10)
-motorB = motor.Motor(8,7)
+motorA = Motor(9,10)
+motorB = Motor(8,7)
 
 #TURN all motors off
 def stopMotors():
@@ -41,10 +41,10 @@ def left():
 
 def main(argv):
   for step in range (0,4):
-    left()
-    time.sleep(0.18)
-    stopMotors()
-    time.sleep(0.1)
+#    left()
+#    time.sleep(0.18)
+#    stopMotors()
+#    time.sleep(0.1)
 
     fowards()
     time.sleep(1)
