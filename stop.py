@@ -27,54 +27,9 @@ def stopMotors():
   GPIO.output(pinMotorBFowards, 0)
   GPIO.output(pinMotorBBackwards, 0)
 
-#turn BOTH MOTOROS fowards 
-def fowards (): 
-  GPIO.output(pinMotorAFowards, 1)
-  GPIO.output(pinMotorABackwards, 0)
-  GPIO.output(pinMotorBFowards, 1)  
-  GPIO.output(pinMotorBBackwards, 0)
-
-#turn BOTH MOTOROS backwards
-def backwards ():
-  GPIO.output(pinMotorAFowards, 0)
-  GPIO.output(pinMotorABackwards, 1)
-  GPIO.output(pinMotorBFowards, 0)  
-  GPIO.output(pinMotorBBackwards, 1)
-
-#turn left
-def right():
-  GPIO.output(pinMotorAFowards, 0);
-  GPIO.output(pinMotorABackwards, 1)
-  GPIO.output(pinMotorBFowards, 1)
-  GPIO.output(pinMotorBBackwards, 0)
-
-#turn left
-def left():
-  GPIO.output(pinMotorAFowards, 1);
-  GPIO.output(pinMotorABackwards, 0)
-  GPIO.output(pinMotorBFowards, 0)
-  GPIO.output(pinMotorBBackwards, 1)
 
 
-
-
-#fowards()
-#time.sleep(1)
-
-#left()
-#time.sleep(0.5)
-
-#forwards()
-#time.sleep(1)
-
-#right()
-#time.sleep(0.5)
-
-
-#backwards()
-#time.sleep(0.5)
 
 stopMotors()
-
 GPIO.cleanup()
 
