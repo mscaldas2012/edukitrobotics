@@ -42,30 +42,22 @@ def left():
   motorB.backwards()
 
 def main(argv):
-  #for step in range (0,4):
   try:
     directions = {0: fowards,
                   1: backwards,
                   2: left,
                   3: right}
     while True:
-      dir = randint(0,4)
+      dir = randint(0,3)
       directions[dir]()
-#    left()
-#    time.sleep(0.18
-#    stopMotors()
-#    time.sleep(0.1)
-     	
-      fowards()
       time.sleep(1)
       stopMotors()
       time.sleep(0.2)
   except KeyboardInterrupt:
+    GPIO.cleanup()
     quit()
-
 
 if __name__ == "__main__":
   main(sys.argv[1:])
 
-GPIO.cleanup()
 

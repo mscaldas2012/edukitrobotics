@@ -11,7 +11,7 @@ GPIO.setwarnings(False)
 class Motor:
 
   freq = 20
-  dutyCycle = 30
+  dutyCycle = 50
   stop = 0
 
   def __init__(self, pinFoward, pinBackward):
