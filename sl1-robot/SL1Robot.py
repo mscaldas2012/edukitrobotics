@@ -4,18 +4,18 @@ import time # import the time libray
 import sys
 
 from motor import Motor
-form distanceSensor import DistanceSensor
+from distanceSensor import DistanceSensor
 
 class SL1Robot:
   motorA = Motor(9,10)
   motorB = Motor(8,7)
   distanceSensor = DistanceSensor()
   # Distance valirables
-  SAFE_DISTANCE = 15.0
+  SAFE_DISTANCE = 5.0
   REVERSE_TIME = 0.3
   TURN_TIME = 0.3
 
-  delf __init__(self):
+  def __init__(self):
     #set variables for the GPIO modes
     GPIO.setmode(GPIO.BCM)
     GPIO.setwarnings(False)
@@ -57,6 +57,6 @@ class SL1Robot:
     # For now, simply turn:
     self.right()
     time.sleep(self.TURN_TIME)
-    stopMotors()
+    self.stopMotors()
 
 
