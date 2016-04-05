@@ -11,7 +11,7 @@ class SL1Robot:
   motorB = Motor(8,7)
   distanceSensor = DistanceSensor()
   # Distance valirables
-  SAFE_DISTANCE = 5.0
+  SAFE_DISTANCE = 10.0
   REVERSE_TIME = 0.3
   TURN_TIME = 0.3
 
