@@ -9,7 +9,7 @@ from SL1Robot import SL1Robot
 
 robot = SL1Robot()
 
-howNear = 5.0
+# howNear = 5.0
 
 def main(argv):
   #for step in range (0,4):

@@ -8,6 +8,6 @@ class LineSensor:
     GPIO.setup(self.pinLineFollower, GPIO.IN)  
     GPIO.setwarnings(False)
 
-  def isOnLine(self):
+  def canSeeLine(self):
     return GPIO.input(self.pinLineFollower) == 0
       
