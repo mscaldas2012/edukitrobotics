@@ -60,7 +60,7 @@ class CamJamRobot:
         self.stop()
 
     def isOnLine(self):
-        return self.lineSensor.isOnLine()
+        return self.lineSensor.canSeeLine()
 
     def findLine(self):
         if self.isOnLine:
