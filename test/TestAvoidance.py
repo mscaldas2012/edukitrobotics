@@ -24,11 +24,11 @@ class TestAvoidance(unittest.TestCase):
                 self.robot.fowards()
                 time.sleep(0.1)
                 if self.robot.isNearObstacle():
-                    self.robot.stopMotors()
+                    self.robot.stop()
                     self.robot.avoidObstacle()
 
         except KeyboardInterrupt:
-            self.robot.stopMotors()
+            self.robot.stop()
             GPIO.cleanup()
             quit()
 

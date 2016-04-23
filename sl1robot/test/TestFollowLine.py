@@ -23,12 +23,12 @@ class TestFollowLine(unittest.TestCase):
                 if self.robot.isOnLine():
                     self.robot.fowards()
                     time.sleep(0.01)
-                    self.robot.stopMotors()
+                    self.robot.stop()
                 else:
                     self.robot.findLine()
 
         except KeyboardInterrupt:
-            self.robot.stopMotors()
+            self.robot.stop()
             GPIO.cleanup()
             quit()
 

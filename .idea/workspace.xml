@@ -3,7 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="9d9f7e93-0a51-4109-93d2-4399e76f8455" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sl1robot/avoidance.py" afterPath="$PROJECT_DIR$/sl1robot/avoidance.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sl1robot/camJamRobot.py" afterPath="$PROJECT_DIR$/sl1robot/camJamRobot.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sl1robot/test/TestAvoidance.py" afterPath="$PROJECT_DIR$/sl1robot/test/TestAvoidance.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sl1robot/test/TestFollowLine.py" afterPath="$PROJECT_DIR$/sl1robot/test/TestFollowLine.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sl1robot/test/TestMotors.py" afterPath="$PROJECT_DIR$/sl1robot/test/TestMotors.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sl1robot/test/TestRandomMovement.py" afterPath="$PROJECT_DIR$/sl1robot/test/TestRandomMovement.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/TestAvoidance.py" afterPath="$PROJECT_DIR$/test/TestAvoidance.py" />
     </list>
     <ignored path="edukitrobotics.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,17 +43,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="camJamRobot.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="camJamRobot.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sl1robot/camJamRobot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="67" column="9" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+            <state relative-caret-position="1045">
+              <caret line="91" column="28" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestFollowLine.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="avoidance.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sl1robot/avoidance.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestFollowLine.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sl1robot/test/TestFollowLine.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
@@ -141,8 +157,8 @@
         <option value="$PROJECT_DIR$/test/TestRandomMovement.py" />
         <option value="$PROJECT_DIR$/test/TestAvoidance.py" />
         <option value="$PROJECT_DIR$/test/TestFollowLine.py" />
-        <option value="$PROJECT_DIR$/sl1robot/camJamRobot.py" />
         <option value="$PROJECT_DIR$/sl1robot/test/TestFollowLine.py" />
+        <option value="$PROJECT_DIR$/sl1robot/camJamRobot.py" />
       </list>
     </option>
   </component>
@@ -649,7 +665,14 @@
       <option name="project" value="LOCAL" />
       <updated>1461435914056</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="debugging follow line">
+      <created>1461436008913</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1461436008913</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -660,11 +683,12 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294702" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37913907" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3294702" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294702" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -672,7 +696,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -682,7 +705,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding test for following the line" />
     <MESSAGE value="adding KeyboardInterrupt" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding KeyboardInterrupt" />
+    <MESSAGE value="debugging follow line" />
+    <option name="LAST_COMMIT_MESSAGE" value="debugging follow line" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -797,6 +821,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-615">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -804,6 +829,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-300">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -811,6 +837,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-360">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -818,6 +845,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-255">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -969,14 +997,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sl1robot/camJamRobot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="67" column="9" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sl1robot/test/wiimotetest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1000,6 +1020,22 @@
           <folding>
             <element signature="e#218#233#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sl1robot/avoidance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sl1robot/camJamRobot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1045">
+          <caret line="91" column="28" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -18,11 +18,11 @@ def main(argv):
       robot.fowards()
       time.sleep(0.1)
       if robot.isNearObstacle():
-        robot.stopMotors()
+        robot.stop()
         robot.avoidObstacle()
 
   except KeyboardInterrupt:
-    robot.stopMotors()
+    robot.stop()
     GPIO.cleanup()
     quit()
 

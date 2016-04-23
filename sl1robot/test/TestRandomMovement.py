@@ -25,7 +25,7 @@ class TestRobotMovement(unittest.TestCase):
                 dir = randint(0, 3)
                 directions[dir]()
                 time.sleep(1)
-                self.robot.stopMotors()
+                self.robot.stop()
                 time.sleep(0.2)
         except KeyboardInterrupt:
             GPIO.cleanup()
@@ -35,15 +35,15 @@ class TestRobotMovement(unittest.TestCase):
         for step in range(0, 4):
             self.robot.left()
             time.sleep(0.22)
-            self.robot.stopMotors()
+            self.robot.stop()
             time.sleep(0.1)
 
             self.robot.fowards()
             time.sleep(1)
-            self.robot.stopMotors()
+            self.robot.stop()
             time.sleep(0.2)
 
-        self.robot.stopMotors()
+        self.robot.stop()
         GPIO.cleanup()
 
 if __name__ == '__main__':
