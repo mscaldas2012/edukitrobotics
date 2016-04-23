@@ -17,13 +17,19 @@ class TestFollowLine(unittest.TestCase):
         self.robot = CamJamRobot()
 
     def test_followLine(self):
-        while True:
-            self.robot.fowards()
-            time.sleep(0.1)
-            self.robot.stopMotors()
-            if not self.robot.isOnLine():
-                self.robot.findLine()
+        try:
 
+            while True:
+                self.robot.fowards()
+                time.sleep(0.01)
+                self.robot.stopMotors()
+                if not self.robot.isOnLine():
+                    self.robot.findLine()
+
+        except KeyboardInterrupt:
+            self.robot.stopMotors()
+            GPIO.cleanup()
+            quit()
 
 if __name__ == '__main__':
     unittest.main()
