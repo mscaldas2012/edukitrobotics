@@ -20,10 +20,11 @@ class TestFollowLine(unittest.TestCase):
         try:
 
             while True:
-                self.robot.fowards()
-                time.sleep(0.01)
-                self.robot.stopMotors()
-                if not self.robot.isOnLine():
+                if self.robot.isOnLine():
+                    self.robot.fowards()
+                    time.sleep(0.01)
+                    self.robot.stopMotors()
+                else:
                     self.robot.findLine()
 
         except KeyboardInterrupt:
