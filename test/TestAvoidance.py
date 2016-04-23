@@ -1,6 +1,7 @@
 # File created on 4/19/16
 # Author: Marcelo Caldas - mscaldas@gmail.com
 #
+# Avoid Obstacle Tests
 # This tests whether the Robot is avoiding obstacles properly.
 # The logic is that every time the robot is close to an bostacle, it should turn right and try to move on.
 # if still stuck, it will keep turning right.

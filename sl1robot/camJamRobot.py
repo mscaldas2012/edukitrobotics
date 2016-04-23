@@ -60,7 +60,7 @@ class CamJamRobot:
 
 
   def isOnLine(self):
-    return lineSensr.isOnLine()
+    return self.lineSensor.isOnLine()
 
   def findLine(self):
     if (self.isOnLine):
@@ -69,7 +69,7 @@ class CamJamRobot:
       # Try finding the line on the right:
       maxTime = 0.4
       time = 0.1
-      found = false
+      found = False
       while not found & time <= maxTime:
         self.right()
         time.sleep(time)
