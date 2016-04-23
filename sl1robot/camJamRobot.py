@@ -10,9 +10,9 @@
 import RPi.GPIO as GPIO  # Import the GPIO Library
 import time  # import the time libray
 
-from distanceSensor import DistanceSensor
+from sl1robot.distanceSensor import DistanceSensor
 from sl1robot.twoByTwoDriveTrain import TwoByTwoDriveTrain
-from lineSensor import LineSensor
+from sl1robot.lineSensor import LineSensor
 
 
 class CamJamRobot:
