@@ -9,5 +9,5 @@ class LineSensor:
     GPIO.setwarnings(False)
 
   def canSeeLine(self):
-    return GPIO.input(self.pinLineFollower) == 0
+    return GPIO.input(self.pinLineFollower) == 1 
       
